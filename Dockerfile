@@ -1,5 +1,5 @@
 FROM codenotary/immudb:latest
-
+USER root
 # Expose default immudb port
 EXPOSE 3322
 
