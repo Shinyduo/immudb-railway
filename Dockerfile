@@ -4,4 +4,4 @@ FROM codenotary/immudb:latest
 EXPOSE 3322
 
 # Default entrypoint
-CMD ["immudb", "--dir", "/var/lib/immudb"]
+CMD ["--address=0.0.0.0", "--port=3322", "--dir=/var/lib/immudb"]
